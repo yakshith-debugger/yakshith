@@ -11,7 +11,7 @@ def Tran_Eff(V0, I0, W0):
     return R0, X0
 
 # Streamlit Web App
-st.title("02341A0259-PS7: Transformer Open Circuit Test Calculator")
+st.title("230521L24-PS7: Transformer Open Circuit Test Calculator")
 
 # Input fields
 V0 = st.number_input("Enter V0 (Volts)", min_value=0.0, format="%.2f")
